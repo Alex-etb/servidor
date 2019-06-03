@@ -7,4 +7,4 @@ function trocaBanner(){
 	document.querySelector('h2#mensagem').textcontent = 
 	banners[bannerAtual];
 }
-setInterval(trocaNanner, 2000);
+setInterval(trocaNanner, 1000);
